@@ -1,0 +1,42 @@
+{
+	"name": "respond-to",
+	"version": "0.0.1",
+	"author": "Tim van Elsloo <me@timvanelsloo.com>",
+	"description": "Responds to requests in the desired format, the DRY way (based on Rails).",
+	"contributors": [
+		{
+			"name": "Tim van Elsloo",
+			"email": "me@timvanelsloo.com"
+		}
+	],
+	"scripts": {
+		"test": "vows --spec --isolate"
+	},
+	"main": "./lib/respond-to",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/timvanelsloo/respond-to.git"
+	},
+	"keywords": [
+		"rails",
+		"rest",
+		"api",
+		"service",
+		"json",
+		"msgpack",
+		"xml"
+	],
+	"dependencies": {
+		"async": "0.2.x",
+		"i": "0.3.x",
+		"msgpack": "0.1.x"
+	},
+	"devDependencies": {
+		"express": "3.2.x",
+		"vows": "0.6.x"
+	},
+	"license": "MIT",
+	"engines": {
+		"node": ">=0.8"
+	}
+}
